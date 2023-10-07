@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "TechCon 2023",
+    "organization_name": "TechCon",
+    "thumbnail": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F605817689%2F273470231729%2F1%2Foriginal.20230925-165330?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C124%2C2048%2C1024&s=21611b22797c56f408a0cdff14f8ba1a",
+    "location": "TechCity Convention Center",
+    "description": "Join us for the biggest tech event of the year!",
+    "date": "2023-11-15",
+    "about_event": "TechCon 2023 is a one-day tech conference featuring keynote speakers, breakout sessions, and networking opportunities.",
+    "event_info": "TechCon 2023 will cover topics such as artificial intelligence, blockchain, and cybersecurity. Don't miss out on the latest tech trends!",
+    "speakers": [
+      {
+        "id": 101,
+        "name": "John Smith",
+        "speaker_photo": "https://example.com/speakers/john_smith.jpg"
+      },
+      {
+        "id": 102,
+        "name": "Jane Doe",
+        "speaker_photo": "https://example.com/speakers/jane_doe.jpg"
+      },
+      {
+        "id": 103,
+        "name": "David Johnson",
+        "speaker_photo": "https://example.com/speakers/david_johnson.jpg"
+      }
+    ],
+    "ticket_price": "$199"
+  },
+  {
+    "id": 2,
+    "name": "TechExpo 2024",
+    "organization_name": "TechExpo",
+    "thumbnail": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F540877989%2F1590337224743%2F1%2Foriginal.20230622-092505?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C6480%2C3240&s=1a1a97a2dea431bcdfa125d5b32b6cbf",
+    "location": "TechHub Convention Center",
+    "description": "Explore the future of technology at TechExpo 2024!",
+    "date": "2024-05-20",
+    "about_event": "TechExpo 2024 is a two-day technology exposition showcasing the latest innovations and products.",
+    "event_info": "TechExpo 2024 will feature exhibitors from various tech industries, including robotics, virtual reality, and IoT.",
+    "speakers": [
+      {
+        "id": 201,
+        "name": "Emily Wilson",
+        "speaker_photo": "https://example.com/speakers/emily_wilson.jpg"
+      },
+      {
+        "id": 202,
+        "name": "Michael Lee",
+        "speaker_photo": "https://example.com/speakers/michael_lee.jpg"
+      }
+    ],
+    "ticket_price": "$149"
+  },
+  {
+    "id": 3,
+    "name": "InnovateTech Summit",
+    "organization_name": "InnovateTech Summit",
+    "thumbnail": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F587801009%2F1317099778183%2F1%2Foriginal.20230705-131453?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=d71c67a86fceee7daee1d3747598948e",
+    "location": "Innovation Center",
+    "description": "Unlock the potential of innovation at InnovateTech Summit!",
+    "date": "2024-03-10",
+    "about_event": "InnovateTech Summit is a two-day event focused on fostering creativity and innovation in technology.",
+    "event_info": "This summit will feature workshops, panel discussions, and a startup pitch competition.",
+    "speakers": [
+      {
+        "id": 301,
+        "name": "Sarah Williams",
+        "speaker_photo": "https://example.com/speakers/sarah_williams.jpg"
+      },
+      {
+        "id": 302,
+        "name": "Mark Anderson",
+        "speaker_photo": "https://example.com/speakers/mark_anderson.jpg"
+      }
+    ],
+    "ticket_price": "$179"
+  },
+  {
+    "id": 4,
+    "name": "AI Revolution Expo",
+    "organization_name": "AI Revolution ",
+    "thumbnail": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F560832709%2F384856497603%2F1%2Foriginal.20230724-132201?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=0779e3a4a2bc2bd309eb778bde812dbd",
+    "location": "AI Innovation Center",
+    "description": "Experience the AI revolution at AI Revolution Expo!",
+    "date": "2024-09-28",
+    "about_event": "AI Revolution Expo is a one-day expo showcasing the latest advancements in artificial intelligence.",
+    "event_info": "Explore AI applications in healthcare, finance, and autonomous systems through interactive demos.",
+    "speakers": [
+      {
+        "id": 401,
+        "name": "Jennifer Brown",
+        "speaker_photo": "https://example.com/speakers/jennifer_brown.jpg"
+      }
+    ],
+    "ticket_price": "$129"
+  },
+  {
+    "id": 5,
+    "name": "Blockchain World Summit",
+    "organization_name": "Blockchain World ",
+    "thumbnail": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F570740979%2F66953416%2F1%2Foriginal.jpg?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=8818c97fd9d2d1273e2e1c91080aba56",
+    "location": "Crypto Convention Center",
+    "description": "Dive into the world of blockchain at Blockchain World Summit!",
+    "date": "2024-06-15",
+    "about_event": "Blockchain World Summit is a three-day conference exploring blockchain technology and its applications.",
+    "event_info": "Learn from industry leaders about decentralized finance, NFTs, and smart contracts.",
+    "speakers": [
+      {
+        "id": 501,
+        "name": "Alex Turner",
+        "speaker_photo": "https://example.com/speakers/alex_turner.jpg"
+      },
+      {
+        "id": 502,
+        "name": "Elena Martinez",
+        "speaker_photo": "https://example.com/speakers/elena_martinez.jpg"
+      }
+    ],
+    "ticket_price": "$199"
+  },
+  {
+    "id": 6,
+    "name": "Cybersecurity Summit",
+    "organization_name": "Cybersecurity ",
+    "thumbnail": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F612419479%2F287266297884%2F1%2Foriginal.20231003-225313?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=f47e7a49b80eb3dd1dfbcee62e3733c8",
+    "location": "Security Hub",
+    "description": "Stay secure in the digital age at Cybersecurity Summit!",
+    "date": "2024-08-05",
+    "about_event": "Cybersecurity Summit is a one-day event focusing on the latest cybersecurity threats and defenses.",
+    "event_info": "Hear from experts about data breaches, ethical hacking, and secure coding practices.",
+    "speakers": [
+      {
+        "id": 601,
+        "name": "Robert Smith",
+        "speaker_photo": "https://example.com/speakers/robert_smith.jpg"
+      },
+      {
+        "id": 602,
+        "name": "Maria Garcia",
+        "speaker_photo": "https://example.com/speakers/maria_garcia.jpg"
+      }
+    ],
+    "ticket_price": "$149"
+  }
+]
