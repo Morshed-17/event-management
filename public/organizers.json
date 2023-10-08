@@ -1,0 +1,82 @@
+[
+  {
+    "name": "EventPlanners Inc.",
+    "img": "https://example.com/eventplanners.jpg",
+    "location": "New York, NY"
+  },
+  {
+    "name": "CityLights Events",
+    "img": "https://example.com/citylights.jpg",
+    "location": "Los Angeles, CA"
+  },
+  {
+    "name": "Creative Occasions",
+    "img": "https://example.com/creativeoccasions.jpg",
+    "location": "Chicago, IL"
+  },
+  {
+    "name": "Metro Event Management",
+    "img": "https://example.com/metroevents.jpg",
+    "location": "Houston, TX"
+  },
+  {
+    "name": "Elegance Events & Co.",
+    "img": "https://example.com/eleganceevents.jpg",
+    "location": "Miami, FL"
+  },
+  {
+    "name": "Prime Event Planners",
+    "img": "https://example.com/primeevents.jpg",
+    "location": "San Francisco, CA"
+  },
+  {
+    "name": "Glamour Productions",
+    "img": "https://example.com/glamourproductions.jpg",
+    "location": "Las Vegas, NV"
+  },
+  {
+    "name": "Harbor City Events",
+    "img": "https://example.com/harborcityevents.jpg",
+    "location": "Seattle, WA"
+  },
+  {
+    "name": "Sunset Celebrations",
+    "img": "https://example.com/sunsetcelebrations.jpg",
+    "location": "Miami, FL"
+  },
+  {
+    "name": "Golden Gate Gatherings",
+    "img": "https://example.com/goldengategatherings.jpg",
+    "location": "San Francisco, CA"
+  },
+  {
+    "name": "Southern Charm Events",
+    "img": "https://example.com/southerncharmevents.jpg",
+    "location": "Atlanta, GA"
+  },
+  {
+    "name": "Majestic Moments",
+    "img": "https://example.com/majesticmoments.jpg",
+    "location": "Dallas, TX"
+  },
+  {
+    "name": "Celestial Creations",
+    "img": "https://example.com/celestialcreations.jpg",
+    "location": "Denver, CO"
+  },
+  {
+    "name": "Rainbow Events",
+    "img": "https://example.com/rainbowevents.jpg",
+    "location": "Boston, MA"
+  },
+  {
+    "name": "Palm Paradise Planners",
+    "img": "https://example.com/palmparadiseplanners.jpg",
+    "location": "Orlando, FL"
+  },
+  {
+    "name": "Harmony Happenings",
+    "img": "https://example.com/harmonyhappenings.jpg",
+    "location": "Nashville, TN"
+  }
+]

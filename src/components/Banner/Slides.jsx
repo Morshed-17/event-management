@@ -14,8 +14,8 @@ const Slides = ({event}) => {
              className={` bg-cover bg-center cursor-pointer`}>
                 
                   <div>
-                    <div className="max-w-screen-xl items-center justify-between mx-auto pt-20 pb-20 md:pt-40 lg:pt-40 lg:pb-40 px-5 h-full flex flex-col md:flex-row gap-6">
-                      <div className=" md:w-1/2 p-6 rounded-lg space-y-6">
+                    <div className="max-w-screen-xl items-center justify-between mx-auto pt-28 pb-20 md:pt-40 lg:pt-40 lg:pb-40  px-5 h-full flex flex-col md:flex-row gap-6">
+                      <div className=" md:w-1/2 rounded-lg space-y-6">
                       
                       <h3 className="font-caveat text-xl lg:text-4xl font-bold text-cream">
                         {date}

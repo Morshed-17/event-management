@@ -31,7 +31,7 @@ const EventCard = ({ event }) => {
               </p>
             </div>
             <Link to={`event/${id}`}>
-            <OutlineBtn />
+            <OutlineBtn text={'Show Details'}/>
             </Link>
             
           </div>

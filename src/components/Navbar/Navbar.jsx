@@ -1,13 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import { FaHamburger } from 'react-icons/fa';
 import { useState } from "react";
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false)
+    const location = useLocation()
     
   return (
-    <div className="relative z-10">
+    <div className={`relative z-10 ${location.pathname !== '/' ? 'bg-[#37095B]': ''}`} >
       <nav className="max-w-screen-xl mx-auto px-5 py-3 lg:py-1 flex justify-between items-center text-white ">
       <div  className="flex-1">
 

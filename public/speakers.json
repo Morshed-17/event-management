@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "image": "https://demo.themewinter.com/wp/eventplace/wp-content/uploads/2022/12/speaker_7.jpg",
+      "name": "John Smith",
+      "company": "TechCo"
+    },
+    {
+      "id": 2,
+      "image": "https://demo.themewinter.com/wp/eventplace/wp-content/uploads/2022/12/speaker_4.jpg",
+      "name": "Alice Johnson",
+      "company": "AI Innovations"
+    },
+    {
+      "id": 3,
+      "image": "https://demo.themewinter.com/wp/eventplace/wp-content/uploads/2022/12/speaker_8.jpg",
+      "name": "Ella Davis",
+      "company": "SecureTech"
+    },
+    {
+      "id": 4,
+      "image": "https://demo.themewinter.com/wp/eventplace/wp-content/uploads/2022/12/speaker_6.jpg",
+      "name": "Mark Wilson",
+      "company": "DataMasters"
+    },
+    {
+      "id": 5,
+      "image": "https://demo.themewinter.com/wp/eventplace/wp-content/uploads/2022/12/speaker_5.jpg",
+      "name": "Sophia Lee",
+      "company": "CloudTech"
+    },
+    {
+      "id": 6,
+      "image": "https://demo.themewinter.com/wp/eventplace/wp-content/uploads/2022/12/speaker_1.jpg",
+      "name": "David Brown",
+      "company": "TechSolutions"
+    }
+  ]

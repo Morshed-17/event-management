@@ -2,7 +2,7 @@
 import Logo from '../Logo/Logo';
 const Footer = () => {
   return (
-    <div className="bg-dark-blue">
+    <div className="bg-[#4439a8]">
       <footer className="w-full p-8 text-white max-w-screen-xl mx-auto">
         <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
           <Logo/>
