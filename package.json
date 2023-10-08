@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "@rcaferati/wac": "^1.0.0",
+    "firebase": "^10.4.0",
     "proptypes": "^1.1.0",
     "react": "^18.2.0",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.1",
+    "react-hot-toast": "^2.4.1",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
     "swiper": "^10.3.1",

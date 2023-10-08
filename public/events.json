@@ -13,17 +13,17 @@
       {
         "id": 101,
         "name": "John Smith",
-        "speaker_photo": "https://example.com/speakers/john_smith.jpg"
+        "speaker_photo": ""
       },
       {
         "id": 102,
         "name": "Jane Doe",
-        "speaker_photo": "https://example.com/speakers/jane_doe.jpg"
+        "speaker_photo": ""
       },
       {
         "id": 103,
         "name": "David Johnson",
-        "speaker_photo": "https://example.com/speakers/david_johnson.jpg"
+        "speaker_photo": ""
       }
     ],
     "ticket_price": "$199"
@@ -42,12 +42,12 @@
       {
         "id": 201,
         "name": "Emily Wilson",
-        "speaker_photo": "https://example.com/speakers/emily_wilson.jpg"
+        "speaker_photo": ""
       },
       {
         "id": 202,
         "name": "Michael Lee",
-        "speaker_photo": "https://example.com/speakers/michael_lee.jpg"
+        "speaker_photo": ""
       }
     ],
     "ticket_price": "$149"
@@ -66,12 +66,12 @@
       {
         "id": 301,
         "name": "Sarah Williams",
-        "speaker_photo": "https://example.com/speakers/sarah_williams.jpg"
+        "speaker_photo": ""
       },
       {
         "id": 302,
         "name": "Mark Anderson",
-        "speaker_photo": "https://example.com/speakers/mark_anderson.jpg"
+        "speaker_photo": ""
       }
     ],
     "ticket_price": "$179"
@@ -90,7 +90,7 @@
       {
         "id": 401,
         "name": "Jennifer Brown",
-        "speaker_photo": "https://example.com/speakers/jennifer_brown.jpg"
+        "speaker_photo": ""
       }
     ],
     "ticket_price": "$129"
@@ -109,12 +109,12 @@
       {
         "id": 501,
         "name": "Alex Turner",
-        "speaker_photo": "https://example.com/speakers/alex_turner.jpg"
+        "speaker_photo": ""
       },
       {
         "id": 502,
         "name": "Elena Martinez",
-        "speaker_photo": "https://example.com/speakers/elena_martinez.jpg"
+        "speaker_photo": ""
       }
     ],
     "ticket_price": "$199"
@@ -133,12 +133,12 @@
       {
         "id": 601,
         "name": "Robert Smith",
-        "speaker_photo": "https://example.com/speakers/robert_smith.jpg"
+        "speaker_photo": ""
       },
       {
         "id": 602,
         "name": "Maria Garcia",
-        "speaker_photo": "https://example.com/speakers/maria_garcia.jpg"
+        "speaker_photo": ""
       }
     ],
     "ticket_price": "$149"

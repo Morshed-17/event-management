@@ -4,7 +4,8 @@ import Events from "../components/Events/Events";
 import Category from "../components/Category/Category";
 import Speakers from "../components/Speakers/Speakers";
 import Moments from "../components/moments/Moments";
-import AboutSec from "../components/AboutSec/AboutSec";
+import Newsletter from "../components/Newsletter/Newsletter";
+
 
 
 
@@ -13,11 +14,11 @@ const Home = () => {
     return (
         <div>
             <Banner events={events}/>
-            <AboutSec/>
             <Events events={events}/>
             <Category/>
             <Moments/>
             <Speakers/>
+            <Newsletter/>
         </div>
     );
 };

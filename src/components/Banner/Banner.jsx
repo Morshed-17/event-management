@@ -17,7 +17,7 @@ const Banner = ({events}) => {
   return (
     <div style={{
       backgroundImage: "url('https://demo.themewinter.com/wp/eventplace/wp-content/uploads/2022/11/hero_area_image_3.jpg')"
-  }} className='bg-cover mt-[-100px]'>
+  }} className='bg-cover mt-[-110px]'>
       <Swiper 
     pagination={{
           type: 'fraction',

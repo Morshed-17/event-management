@@ -3,7 +3,7 @@ import OutlineBtn from "../buttons/OutlineBtn";
 import { Link } from "react-router-dom";
 
 const EventCard = ({ event }) => {
-  const { id, name, location, description, date, about,thumbnail, organization_name,about_event } = event;
+  const { id, name, location, description, date, about,thumbnail, organization_name,about_event, ticket_price } = event;
   return (
     <div>
       <div className="rounded-lg overflow-hidden bg-white">
@@ -23,11 +23,13 @@ const EventCard = ({ event }) => {
             <FaLocationArrow />
             <p>{location}</p>
           </div>
-          <div className="flex justify-between items-center pt-6">
+          <p className="text-lg">
+            {description}
+          </p>
+          <div className="flex justify-between items-center ">
             <div>
-              <p className="">
-                Organized By <br />
-                <span className="font-bold">{organization_name}</span>
+              <p className="font-bold">
+                {ticket_price}
               </p>
             </div>
             <Link to={`event/${id}`}>

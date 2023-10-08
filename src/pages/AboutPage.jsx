@@ -1,7 +1,9 @@
-const AboutSec = () => {
-  return (
-    <div className="max-w-screen-xl  mx-auto my-16 px-5">
-      <div className="text-center my-8">
+
+
+const AboutPage = () => {
+    return (
+        <div className="max-w-screen-xl  mx-auto my-16 px-5">
+      <div className="text-center my-8 max-w-[750px] mx-auto">
         <h3 className=" text-2xl lg:text-4xl font-semibold text-red-400 font-caveat mb-4">
           About
         </h3>
@@ -12,7 +14,7 @@ const AboutSec = () => {
           professionals, and businesses through unforgettable experiences.
         </h2>
       </div>
-      <div className="flex flex-col gap-12 items-center lg:flex-row">
+      <div className="flex flex-col gap-12 items-center lg:flex-row border-t-2 border-sky-200  pt-12">
         <div className="">
 
         <img
@@ -44,7 +46,7 @@ const AboutSec = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default AboutSec;
+export default AboutPage;
