@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The answer will be A: `{}`. JavaScript has two scopes which are Golbal and Function scope. if we assign a variable without declaring it, it becomes a global property of the window object.</i>
 
 </p>
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The answer will be C: `"12"`. In javascript if we do addition between one number type and one string type data it will be a string type and concatinate the value.</i>
 
 </p>
 </details>
@@ -71,7 +71,7 @@ console.log(food);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The correct ans will be A: `['🍕', '🍫', '🥑', '🍔']`. we are just reassigning the info.favoriteFood prop. It will not change the main food variable that is holding the prop default value.</i>
 
 </p>
 </details>
@@ -96,7 +96,7 @@ console.log(sayHi());
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The ans will be B: `Hi there, undefined`. In javascript if we call the function without passing any arguments it will show in undefined as the default value of that parameter.</i>
 
 </p>
 </details>
@@ -124,7 +124,7 @@ console.log(count);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The answer will be C: 3. The forEach function is looping nums variable and after the loop runs it change the count variable value by adding 1 each time and console log the previous count value.</i>
 
 </p>
 </details>
