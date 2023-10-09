@@ -1,9 +1,17 @@
 import { useEffect, useState } from "react";
 import SpeakerCard from "./SpeakerCard";
 import OutlineBtn from "../buttons/OutlineBtn";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+//useEffect
 
 
 const Speakers = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     const [speakers, setSpeakers] = useState([])
     useEffect(()=> {
         fetch('/speakers.json')
@@ -12,7 +20,7 @@ const Speakers = () => {
     }, [])
     
     return (
-        <div className="my-16 max-w-screen-xl mx-auto px-5">
+        <div className="my-16 max-w-screen-xl mx-auto px-5" data-aos="fade-up">
             <div className="text-center my-6">
                 <h3 className=" text-2xl lg:text-4xl font-semibold text-red-400 font-caveat mb-4">Speakers</h3>
                 <h2 className=" text-3xl lg:text-5xl font-extrabold">Popular Speakers</h2>

@@ -1,11 +1,20 @@
 import { FaCalendar, FaLocationArrow } from "react-icons/fa";
 import OutlineBtn from "../buttons/OutlineBtn";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+//useEffect
 
 const EventCard = ({ event }) => {
   const { id, name, location, description, date, about,thumbnail, organization_name,about_event, ticket_price } = event;
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <div>
+    <div data-aos="zoom-in" data-aos-duration="1000">
       <div className="rounded-lg overflow-hidden bg-white">
         <img
           src={thumbnail}

@@ -7,4 +7,4 @@
 - **Sign in and register options :**  Users can *sign in and register using their email*. Also there is a option for *Google Sign In*.
 - **Secured pages :** Non logged  users can not visit certain pages.
 
-- **Scrolling Animations :** When user scroll down they will see some cool animations. 
+- **Scrolling Animations :** When user scrolls down they will see some cool animations. 

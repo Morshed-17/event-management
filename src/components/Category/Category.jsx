@@ -8,6 +8,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { useEffect, useState } from "react";
 import CategoryCard from "./categoryCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+//useEffect
 
 // import required modules
 
@@ -18,9 +22,16 @@ export default function Category() {
       .then((res) => res.json())
       .then((data) => setOrgs(data));
   }, []);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
+    
     <>
-      <div className="bg-[#4439a8] pt-12 pb-36  my-16">
+      <div className="bg-[#4439a8] pt-12 pb-36  my-16" data-aos="fade-up" data-aos-duration="1000"
+     >
         <div className="max-w-screen-xl mx-auto">
           <div className="text-center my-6">
             <h3 className=" text-2xl lg:text-4xl font-semibold text-white font-caveat mb-4">

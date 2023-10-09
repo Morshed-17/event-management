@@ -1,10 +1,19 @@
 import EventCard from "./EventCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+//useEffect
 
 
 const Events = ({events}) => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     
     return (
-        <div className="max-w-screen-xl mx-auto px-5 my-16">
+        <div className="max-w-screen-xl mx-auto px-5 my-16" >
             <div className="text-center my-6">
                 <h3 className=" text-2xl lg:text-4xl font-semibold text-red-400 font-caveat mb-4">Upcoming Event</h3>
                 <h2 className=" text-3xl lg:text-5xl font-bold">Event Services</h2>

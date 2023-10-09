@@ -7,9 +7,8 @@ import Moments from "../components/moments/Moments";
 import Newsletter from "../components/Newsletter/Newsletter";
 
 
-
-
 const Home = () => {
+
     const events = useLoaderData()
     return (
         <div>
