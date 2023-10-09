@@ -9,7 +9,9 @@ const Register = () => {
   const navigate = useNavigate()
     const  handleGoogleLogin = () => {
         googleLogin()
-        .then(res => navigate('/home'))
+        .then(res => {navigate('/')
+        toast.success('Logged in successfuly')
+      })
         .catch(err => console.log(err))
     } 
     const handleSubmit = e => {
