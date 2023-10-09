@@ -1,3 +1,6 @@
+### live : https://react-tech-and-gaming-events.web.app/
+
+
 ### Features
 
 - **Slider :**  Banner section has a slider that shows the event services dynamically
