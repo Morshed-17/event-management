@@ -5,11 +5,11 @@ import toast from "react-hot-toast";
 
 
 const Register = () => {
-  const {googleLogin, createUser} = useAuth()
+  const {googleLogin, createUser, handleUpdateProfile} = useAuth()
   const navigate = useNavigate()
     const  handleGoogleLogin = () => {
         googleLogin()
-        .then(res => console.log(res))
+        .then(res => navigate('/home'))
         .catch(err => console.log(err))
     } 
     const handleSubmit = e => {
@@ -27,9 +27,14 @@ const Register = () => {
         return toast.error('Password must have include (A-Z) & (!@#$%^&*()_+{}\[\]:;<>,.?~\\-)')
       }
       createUser(email, password)
-      .then(res => {
-        toast.success('Registered successfuly')
-        navigate('/')
+      .then(res => { 
+        handleUpdateProfile(name, photo)
+        .then(res => {
+          toast.success('Registered successfuly')
+          navigate('/')
+        })
+        .catch(err => console.log(err))
+        
       })
       .catch(err => console.log(err))
 

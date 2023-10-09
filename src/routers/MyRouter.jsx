@@ -26,10 +26,10 @@ const MyRouter = createBrowserRouter([
                 element: <PrivateRoute><EventDetails/></PrivateRoute>
             },{
                 path: '/about',
-                element: <AboutPage/>
+                element: <PrivateRoute><AboutPage/></PrivateRoute>
             },{
                 path: '/contact',
-                element: <ContactUsPage/>
+                element: <PrivateRoute><ContactUsPage/></PrivateRoute>
             },
             {
                 path: '/login',

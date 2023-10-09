@@ -8,6 +8,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const location = useLocation();
   const { user, logOut } = useAuth();
+  
 
   const handleLogout = () => {
     logOut().then().catch();
@@ -66,9 +67,9 @@ const Navbar = () => {
               {user && (
                 <div className="avatar flex items-center gap-2">
                   <div className="w-12 rounded-full">
-                    <img src="https://scontent.fdac147-1.fna.fbcdn.net/v/t39.30808-1/370045240_281625251422324_6751369206709126721_n.jpg?stp=c8.0.100.100a_dst-jpg_p100x100&_nc_cat=103&ccb=1-7&_nc_sid=fe8171&_nc_eui2=AeErDjRJ7y_dLUgVrlfveYfm0uLIs7Sgp0zS4siztKCnTAJMXbNmG8q2pOWDgL9Ey7arC9cepCt4zx0oFteYL_n9&_nc_ohc=zMHAiQZ7C4IAX-0GBzY&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fdac147-1.fna&oh=00_AfDe71Nr6IKyqpAguCYuEBxu8u_WcPmVzqAlYI6mKWFFOA&oe=65276096" />
+                    <img src={user.photoURL} />
                   </div>
-                  <h3 className="text-white">Angela yui</h3>
+                  <h3 className="text-white">{user.displayName}</h3>
                 </div>
               )}
             </li>
